@@ -1,0 +1,18 @@
+{
+  "name": "talla-ai-web-dashboard",
+  "version": "1.1.0",
+  "description": "WhatsApp AI Bot with Web UI Dashboard",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.11.0",
+    "dotenv": "^16.4.5",
+    "firebase-admin": "^12.1.0",
+    "whatsapp-web.js": "^1.23.0",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "qrcode": "^1.5.3"
+  }
+}
